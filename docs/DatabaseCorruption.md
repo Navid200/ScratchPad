@@ -13,6 +13,6 @@ We don't have a solution yet.
 You can enable this so that a backup of your database and all settings will automatically be made on a daily basis.  
 
 
-2- We have a daily automaitc database backup onto the phone local storage option.  [Legacy database daily backup](https://navid200.github.io/xDrip/docs/Backup/SaveDaily.html)  
+2- We have a daily automaitc database backup onto the phone local storage option.  [Daily legacy database backup](https://navid200.github.io/xDrip/docs/Backup/SaveDaily.html)  
 You can enable this so that a database backup is made on a dialy basis.  
 T
