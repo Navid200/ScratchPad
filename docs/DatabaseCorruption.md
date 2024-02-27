@@ -11,6 +11,9 @@ We don't have a fix yet.
 #### **What is the outcome if this happens?**  
 If this happens to you, you will lose your database and all your settings.  It will be like you have just installed xDrip for the very first time on your phone.  
 There will be no way to recover the old readings or your settings.  
+<br/>  
+
+---  
   
 #### **What should you do?**  
 1- Set up upload to the cloud.  You can use Nightsocut or Tidepool for that.  
