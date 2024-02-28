@@ -17,9 +17,9 @@ There will be no way to recover the old readings.
 ---  
   
 #### **What should I do?**  
-1- Enable "Missed reading alert", which by default is disabled.  Then, you will get an alert if you stop having readings.  
+1- Enable "Missed reading alert", which by default is disabled.  Then, you will have an alert if readings stop.  
   
-2- Set up an automatic upload to the cloud.  You can use Nightsocut or Tidepool for that.  
+2- Set up xDrip to automatically upload to the cloud.  You can use Nightsocut or Tidepool for that.  
 Then, your data will be safe regardless of what happens to your xDrip database.  
 Considering you could lose your phone, this would be strongly recommended even if there was no possibility of database corruption.  
   
@@ -28,5 +28,5 @@ You can enable this so that a backup of your database and all settings will auto
   
 4- We have a daily automatic database backup onto the phone local storage option.  [Daily legacy database backup](https://navid200.github.io/xDrip/docs/Backup/SaveDaily.html)  
 You can enable this so that a database backup is made on a daily basis and saved on your phone.  
-This however can eventually fill up the disk on your phone.  You can manually delete the old saved files to free up space.  
+This however can eventually fill up the disk on your phone.  Then, you can manually delete the old saved files to free up space.  
   
