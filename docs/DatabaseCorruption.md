@@ -10,6 +10,7 @@ We don't know what causes the corruption, and don't have a fix yet.
 
 #### **What is the outcome if my database is corrupted?**  
 If this happens, you will lose your database losing all your old readings.  
+Your sensor may stop working until you attend to it.  
 There will be no way to recover the old readings.  
 <br/>  
   
