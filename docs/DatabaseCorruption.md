@@ -16,7 +16,7 @@ There will be no way to recover the old readings.
 ---  
   
 #### **What should I do?**  
-1- Enable "Missed reading alert", which by default is disabled.  Then, you will get an alert if for any reason, you stop having readings.  
+1- Enable "Missed reading alert", which by default is disabled.  Then, you will get an alert if you stop having readings.  
   
 2- Set up an automatic upload to the cloud.  You can use Nightsocut or Tidepool for that.  
 Then, your data will be safe regardless of what happens to your xDrip database.  
