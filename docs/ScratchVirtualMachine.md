@@ -30,7 +30,7 @@ Copy the following script and paste into the Cloud Shell terminal and enter.
   
 <div style="position: relative">
   <button onclick="copyScript()" style="border: 1px solid #0066ff; color:#f0f0f0; background: linear-gradient(#0066ff, #0066ff); font-size:14px; background-color:#0066ff; font-weight:400; border-radius: 2px; margin-left:70px; margin-top:8px; padding:4px 12px; display:inline-block; box-shadow: inset 0px 1px 0px rgba(255,255,255,.3), 0px 1px 5px rgba(0,0,0,.7); :hover ">Copy</button>
-  <pre><code id="vmScript">
+  <pre><code id="vmScript" style="border:none; color:#101010; background-color:#ededed; width:100%; font-size:15px">
 #!/bin/bash
 # Create a Nightscout VM with a random free-tier region
 # Checks if an instance already exists before proceeding
