@@ -23,10 +23,9 @@ Go to [Google Cloud](https://cloud.google.com/).
 Sign in.  
 Click on "Console".  
 ![Console icon](./images/Console.png)  
-
-
+  
 <div style="position: relative">
-  <button onclick="FunctionCopyText()" style="position: absolute; right: 10px; top: 10px;">Copy</button>
+  <button onclick="copyScript()" style="position: absolute; right: 10px; top: 10px;">Copy</button>
   <pre><code id="vmScript">
 #!/bin/bash
 # Create a Nightscout VM with a random free-tier region
@@ -79,3 +78,5 @@ function copyScript() {
   alert("✅ Script copied to clipboard!");
 }
 </script>
+
+  
