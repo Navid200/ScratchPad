@@ -57,7 +57,7 @@ echo "Selected region: $region"
 echo "Selected zone:   $zone"
 echo
 
-gcloud compute instances create nightscout-2404 \
+gcloud compute instances create gcns-2025-10-30 \
   --machine-type=e2-micro \
   --zone="$zone" \
   --image-project=ubuntu-os-cloud \
