@@ -68,7 +68,6 @@ gcloud compute instances create gcns-2025-10-30 \
   --tags=http-server,https-server \
   --no-shielded-secure-boot \
   --maintenance-policy=MIGRATE \
-  --no-restart-on-failure \
   --provisioning-model=STANDARD \
   --no-enable-display-device
   </code></pre>
