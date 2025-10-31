@@ -66,7 +66,6 @@ gcloud compute instances create gcns-2025-10-30 \
   --boot-disk-type=pd-standard \
   --network-tier=STANDARD \
   --tags=http-server,https-server \
-  --no-boot-disk-auto-delete \
   --no-shielded-secure-boot \
   --maintenance-policy=MIGRATE \
   --no-restart-on-failure \
