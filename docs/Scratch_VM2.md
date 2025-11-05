@@ -7,16 +7,50 @@ description: "Step-by-step instructions to create a free-tier Google Cloud virtu
 [Google Cloud Nightscout](../) >> Virtual Machine  
    
 In this guide, we will create a free virtual machine in our [Google project](./NS_GCProject.md).  Each Google account is eligible for one free virtual machine.  
-For additional assistance, a video clip on this page may be helpful. This process takes around 5 minutes.  
+For additional assistance, a video clip on this page may be helpful. This process takes about 1 minute.  
 <br/>  
+  
+After signing into Google Cloud, click on "Console".  
+![](./images/Console.png)  
+  
+From the menu, select "Compute Engine > VM instances".  
+If you see that you already have a virtual machine and you proceed to create another, it will not be free.  
+If you consider deleting your existing virtual machine, see [this](./DeleteVM.md).  
+  
+Click the Cloud Shell button at the top right corner of the page.  
+![](./images/OpenCloudShell.png)  
+Authorize.  
+The Cloud Shell window will open at the bottom.  
+  
+Copy and paste the following highlighted line into the Cloud Shell terminal that you opened, then press **Enter**.  
+  
+<input type="text" value="curl https://raw.githubusercontent.com/jamorham/nightscout-vps/vps-2/create_vm.sh | bash" readonly 
+  id="myInputText1"
+  style="border:none; color:#101010; background-color:#ededed; width:100%; font-size:15px">  
+<button onclick="copyText('myInputText1', 'msg')"
+  style="border: 1px solid #0066ff; color:#f0f0f0; background: linear-gradient(#0066ff, #0066ff); font-size:14px; background-color:#0066ff; font-weight:400; border-radius: 2px; margin-left:70px; margin-top:8px; padding:4px 12px; display:inline-block; box-shadow: inset 0px 1px 0px rgba(255,255,255,.3), 0px 1px 5px rgba(0,0,0,.7); :hover ">Copy</button>  
+  <span id="msg" style="margin-left:10px; color:green; display:none;">Copied!</span>  
+  
+<br/>  
+  
+You will be asked to enter a name for the new virtual machine.  You can just press enter to approve the suggested name, or enter a name first.  
+Confirm the creation of the machine.  
+And your virtual machine will be created.  
+  
+If you experience any problems, you can proceed with our original instructions that you can find further doen this page.  But, please report the problem to [us](https://github.com/NightscoutFoundation/xDrip/discussions/new?category=general).  
   
 ---
   
 ### ⚠️ WARNING!  
 This virtual machine is strictly for hosting Nightscout. Do not use it for work, banking, trading, shopping, or development.   
 <br/>  
+
+
+
   
 ---  
+  
+What follows is our previous instructions for creating the virtual machine by selecting the different options from the menus, which you can still follow if you prefer.  
   
 Go to "Compute Engine"  &#8594; "VM Instances".  
   
