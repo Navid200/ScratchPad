@@ -1,10 +1,10 @@
 ---
-title: "Dexcom G7 vs G6: Key Differences When Using xDrip"
+title: "Dexcom G7 vs G6: key differences when using xDrip"
 description: "Learn the key differences between Dexcom G6 and G7 when using xDrip, including sensor behavior, connection order, session handling, and data transmission."
 ---
 
-# Dexcom G7 vs G6: Key Differences When Using xDrip  
-[xDrip](../../) >> [Features](../Features_page.md) >> [xDrip & Dexcom](../Dexcom_page.md) >> Dexcom G7 vs G6: Key Differences When Using xDrip  
+# Dexcom G7 vs G6: key differences when using xDrip  
+[xDrip](../../) >> [Features](../Features_page.md) >> [xDrip & Dexcom](../Dexcom_page.md) >> Dexcom G7 vs G6: key differences when using xDrip  
   
 Many Dexcom G6 users are now preparing to switch to G7. This page outlines the key differences you can expect when using G7 with xDrip.  
   
