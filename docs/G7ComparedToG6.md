@@ -21,19 +21,22 @@ G6: A session must be manually started from an app, receiver, or pump.
 G7: The sensor session starts automatically upon insertion.  
 Because the G7 handles its own activation, there is no "Start sensor" or "Stop sensor" option in xDrip.  
   
-4- Connection order  
+4- Configuration settings  
+To use xDrip with the G7, you will need to scan the configuration QR code provided in the setup guide.  
+  
+5- Connection order  
 G6: It is generally recommended to connect your pump before connecting xDrip.  
 G7: If your pump connects directly to the G7, you should connect xDrip first, then connect the pump.  Similarly, if you have a G7 receiver, pair xDrip before pairing the receiver.  
   
-5- Transmission modes  
+6- Transmission modes  
 G6: Transmits data once every 5 minutes.  
 G7: Also transmits every 5 minutes but includes a "rapid reconnect" mode.  If the G7 loses connectivity for 15 consecutive minutes, it switches to transmitting once per minute to re-establish the link more quickly.  
   
-6- Sensor lifespan and grace period  
+7- Sensor lifespan and grace period  
 G6: Runs for 10 days. Both the Dexcom app and xDrip report this clearly.  
 G7: Runs for 10.5 days.  The Dexcom app reports this as 10 days with a 12-hour grace period.  xDrip reports the full 10.5 days as the standard lifetime.  It is your choice how to use those extra 12 hours.  
   
-7- Bluetooth troubleshooting  
+8- Bluetooth troubleshooting  
 G6: Disconnecting is easy because the Bluetooth name is associated with the serial number.  There is a "Forget device" button on the status page to unpair easily.   
 G7: The Bluetooth name is not associated with the serial number or pairing code.  Therefore, there is no "Forget device" option on the classic status page for G7.  Please refer to the specific [G7 troubleshooting guide](./G7_Troubleshooting.md) for connectivity issues.  
   
