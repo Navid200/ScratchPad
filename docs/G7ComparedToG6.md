@@ -6,29 +6,40 @@ description: "Learn the key differences between Dexcom G6 and G7 when using xDri
 # Dexcom G7 vs G6: key differences when using xDrip  
 [xDrip](../../) >> [Features](../Features_page.md) >> [xDrip & Dexcom](../Dexcom_page.md) >> Dexcom G7 vs G6: key differences when using xDrip  
   
-Many Dexcom G6 users are now preparing to switch to G7. This page outlines the key differences you can expect when using G7 with xDrip.  
+Many Dexcom G6 users are now preparing to switch to G7. This page outlines the primary differences you can expect when using G7 with xDrip.  
   
-1- There are more fluctuations in readings, especially during the first day of a sensor. This is not related to xDrip.  
-If you use AAPS, you can use one of the existing smoothing options in AAPS to address this.   
+1- Initial reading stability  
+There are more fluctuations in readings, especially during the first day of a sensor. This is not related to xDrip.  
+If you use AAPS, you can use one of the existing smoothing options in AAPS to address this.  
   
-2- A G6 session needs to be started from an app, receiver, or pump. A G7 session starts automatically when you insert the sensor.  
-Therefore, there is no start sensor option for G7 in xDrip.  
-Since you do not need to start a G7 session, there is also no need to stop one. That is why there is no stop option for G7 in xDrip.  
+2- Backfill capability  
+G6: Backfills up to 3 hours of data. To keep a full record on a G6 receiver, it must be turned on or kept in range at least once every 3 hours.  
+G7: Backfills up to 24 hours of data. You only need to turn on a G7 receiver once a day for it to contain all your readings.  
   
-3- You can use xDrip to connect to a G6 transmitter by entering its serial number (transmitter ID), even if another G6 transmitter is in range.  
-If you have a G7 that is active but not connected to xDrip, the app, or a receiver, and you want to connect to another G7, you may have difficulty.  You can address this by following the guides.  
+3- Session management (starting and stopping)  
+G6: A session must be manually started from an app, receiver, or pump.  
+G7: The sensor session starts automatically upon insertion.  
+Because the G7 handles its own activation, there is no "Start sensor" or "Stop sensor" option in xDrip.  
   
-4- You are advised to connect a pump before connecting xDrip to G6.  
-If your pump can connect directly to G7, you should connect xDrip to G7 first before connecting the pump.  Similarly, if you have a G7 receiver, connect xDrip first before connecting the receiver.  
+4- Connection order  
+G6: It is generally recommended to connect your pump before connecting xDrip.  
+G7: If your pump connects directly to the G7, you should connect xDrip first, then connect the pump.  Similarly, if you have a G7 receiver, pair xDrip before pairing the receiver.  
   
-5- G6 has only one mode of operation, transmitting once every 5 minutes.  
-G7 also transmits every 5 minutes but includes a "rapid reconnect" mode in which it transmits once per minute. It transitions to this mode if it has no connectivity for 15 consecutive minutes.  
+5- Transmission modes  
+G6: Transmits data once every 5 minutes.  
+G7: Also transmits every 5 minutes but includes a "rapid reconnect" mode.  If the G7 loses connectivity for 15 consecutive minutes, it switches to transmitting once per minute to re-establish the link more quickly.  
   
-6- A G6 sensor runs for 10 days, and the Dexcom app reports this clearly. xDrip also reports 10 days.  
-A G7 runs for 10.5 days, but the Dexcom app reports it as 10 days with a 12-hour grace period. xDrip reports the full 10.5-day duration.  
+6- Sensor lifespan and grace period  
+G6: Runs for 10 days. Both the Dexcom app and xDrip report this clearly.  
+G7: Runs for 10.5 days.  The Dexcom app reports this as 10 days with a 12-hour grace period.  xDrip reports the full 10.5 days as the standard lifetime.  It is your choice how to use those extra 12 hours.  
+  
+7- Bluetooth troubleshooting  
+G6: Disconnecting is easy because the Bluetooth name is associated with the serial number.  There is a "Forget device" button on the status page to unpair easily.   
+G7: The Bluetooth name is not associated with the serial number or pairing code.  Therefore, there is no "Forget device" option on the classic status page for G7.  Please refer to the specific [G7 troubleshooting guide](./G7_Troubleshooting.md) for connectivity issues.  
   
 ---  
 
 [How to start a G7](./G7.md)  
 [How to start a subsequent G7](./SubsequentG7.md)  
+[G7 troubleshooting guide](./G7_Troubleshooting.md)
 [G7 grace period](./G7_Grace.md)  
