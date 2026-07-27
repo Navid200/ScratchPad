@@ -37,7 +37,7 @@ G6: Runs for 10 days. Both the Dexcom app and xDrip report this clearly.
 G7: Runs for 10.5 days.  The Dexcom app reports this as 10 days with a 12-hour grace period.  xDrip reports the full 10.5 days as the standard lifetime.  It is your choice how to use those extra 12 hours.  
   
 **8- Bluetooth troubleshooting**  
-G6: Disconnecting is easy because the Bluetooth name is associated with the serial number.  There is a "Forget device" button on the status page to unpair easily.   
+G6: Disconnecting is easy because the Bluetooth name is associated with the serial number.  There is a "Forget device" button on the classic status page to unpair easily.   
 G7: The Bluetooth name is not associated with the serial number or pairing code.  Therefore, there is no "Forget device" option on the classic status page for G7.  Please refer to the specific [G7 troubleshooting guide](./G7_Troubleshooting.md) for connectivity issues.  
   
 ---  
