@@ -44,5 +44,5 @@ G7: The Bluetooth name is not associated with the serial number or pairing code.
 
 [How to start a G7](./G7.md)  
 [How to start a subsequent G7](./SubsequentG7.md)  
-[G7 troubleshooting guide](./G7_Troubleshooting.md)
+[G7 troubleshooting guide](./G7_Troubleshooting.md)  
 [G7 grace period](./G7_Grace.md)  
